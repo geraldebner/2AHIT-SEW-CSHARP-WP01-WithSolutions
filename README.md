@@ -14,3 +14,14 @@ https://softchris.github.io/pages/dotnet-core.html#writing-a-test
 
 
 https://learn.microsoft.com/en-us/dotnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-7-0
+
+
+
+commands:
+
+dotnet build
+dotnet new 
+
+
+dotnet new console -o 02-leap-year
+dotnet sln add 02-leap-year/02-leap-year.csproj
