@@ -1,8 +1,8 @@
 namespace WP01
 {
-    public class ex_01
+    public class ex01
     {
-        public static double triangle_hyp(double a, double b)
+        public static double triangleHyp(double a, double b)
         {
             return Math.Sqrt(a*a + b*b);
         }

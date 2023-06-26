@@ -78,6 +78,15 @@ jobs:
     - name: Setup MSBuild.exe
       uses: microsoft/setup-msbuild@v1.0.2
 
+    # Code analysis
+    - name: Run .NET Code Analysis
+      uses: dotnet/code-analysis@v1
+      id: code-analysis
+      with:
+        solution: ${{ Solution_Name }}
+        build-breaking: true
+        all-categories: all
+
     # Execute all unit tests in the solution
     - name: Execute unit tests
       run: dotnet test

@@ -9,7 +9,7 @@ public class UnitTest_02_LeapYear_1
    [TestMethod]
     public void triangle_hyp_Test1()
     {
-        Assert.AreEqual( WP01.ex_01.triangle_hyp(3.0,4.0), 5.0);
+        Assert.AreEqual( WP01.ex01.triangleHyp(3.0,4.0), 5.0);
     }
 
     [TestMethod]
