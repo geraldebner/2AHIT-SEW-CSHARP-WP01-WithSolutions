@@ -2,7 +2,7 @@
 {
     public class leapYear
     {
-        public static bool leap_year(int year)
+        public static bool CheckIfLeapYear(int year)
         {
             if (year % 4 == 0)
             {
@@ -21,7 +21,7 @@
 
         static void Main(string[] args)
         {
-            leap_year(2000);
+            CheckIfLeapYear(2000);
         }
     }
 }
