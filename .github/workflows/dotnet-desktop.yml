@@ -83,7 +83,7 @@ jobs:
       uses: dotnet/code-analysis@v1
       id: code-analysis
       with:
-        solution: ${{ Solution_Name }}
+        solution: eb-test-csharp.sln  
         build-breaking: true
         all-categories: all
 
