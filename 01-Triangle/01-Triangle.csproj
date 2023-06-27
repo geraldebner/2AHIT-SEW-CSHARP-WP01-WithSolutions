@@ -10,7 +10,7 @@
     <AnalysisMode>Recommended</AnalysisMode>
     <AnalysisModeStyle>Recommended</AnalysisModeStyle>
     <AnalysisModeNaming>Recommended</AnalysisModeNaming>
-    <CodeAnalysisTreatWarningsAsErrors>false</CodeAnalysisTreatWarningsAsErrors>
+    <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
   </PropertyGroup>
 
 

@@ -1,4 +1,6 @@
-﻿namespace WP01
+﻿
+[assembly: CLSCompliant(true)]
+namespace WP01
 {
     public class LeapYear
     {

@@ -1,3 +1,4 @@
+[assembly: CLSCompliant(true)]
 namespace WP01
 {
     public class Triangle
