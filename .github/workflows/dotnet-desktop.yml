@@ -85,7 +85,7 @@ jobs:
 
     # Code analysis
     - name: Run .NET Code Analysis
-      uses: dotnet/code-analysis@v7.0.3
+      uses: dotnet/code-analysis
       id: code-analysis
       with:
         solution: SEW-2AHIT-WP01.sln  
