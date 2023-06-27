@@ -1,8 +1,8 @@
 ﻿namespace WP01
 {
-    public class leapYear
+    public class LeapYear
     {
-        public static bool CheckIfLeapYear(int year)
+        public static bool IsLeapYear(int year)
         {
             if (year % 4 == 0)
             {
@@ -21,7 +21,7 @@
 
         static void Main(string[] args)
         {
-            CheckIfLeapYear(2000);
+            IsLeapYear(2000);
         }
     }
 }

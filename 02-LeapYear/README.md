@@ -1,9 +1,9 @@
 # Leap Year
 ## Aufgabenstellung
 
-Name der Abgabedatei: *02-leap-year.cs* 
+Name der Abgabedatei: *leapYear.cs* 
 
-Erstellen Sie eine Funktion mit dem Namen *leap_year*. Die Funktion erhält einen Parameter (die Jahreszahl). Der Rückgabewert der Funktion ist *True*, wenn das angegebene Jahr ein Schaltjahr ist.
+Erstellen Sie eine Funktion mit dem Namen *IsleapYear*. Die Funktion erhält einen Parameter (die Jahreszahl). Der Rückgabewert der Funktion ist *True*, wenn das angegebene Jahr ein Schaltjahr ist.
 
 Schreiben Sie den Programmcode um die Jahreszahl wie im Beispieloutput beschrieben einzugeben. Im Anschluss werden mit Hilfe der Funktionen überprüft, ob das Jahr ein Schaltjahr ist und der entsprechende Text ausgegeben.
 
@@ -25,12 +25,9 @@ This is no leap year.
 
 ## Einschränkungen
 
-Die Beispieldatei muss den Strukturangaben aus dem Unterricht folgen um Modultests zu ermöglichen. Die Struktur
+Die Beispieldatei muss den Strukturangaben aus dem Unterricht folgen um Modultests zu ermöglichen. 
 
-```
-if __name__=="__main__":
-```
-ist unbedingt zu verwenden!
+
 
 ## Hinweise
 

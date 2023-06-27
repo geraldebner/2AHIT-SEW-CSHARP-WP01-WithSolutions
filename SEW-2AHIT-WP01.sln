@@ -5,9 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Triangle", "01-Triangle\01-Triangle.csproj", "{4F9F6DA4-E307-445D-A72B-15847B7254F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-library", "test-library\test-library.csproj", "{E64B90DB-FDEF-4AA1-9DF2-8FF9B6A55985}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibrary", "TestLibrary\TestLibrary.csproj", "{E64B90DB-FDEF-4AA1-9DF2-8FF9B6A55985}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-leap-year", "02-leap-year\02-leap-year.csproj", "{83DD8E5A-6E3D-446D-8A64-2346C6EA5B3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-LeapYear", "02-LeapYear\02-LeapYear.csproj", "{83DD8E5A-6E3D-446D-8A64-2346C6EA5B3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

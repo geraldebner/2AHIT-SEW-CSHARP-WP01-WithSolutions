@@ -17,6 +17,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\01-Triangle\01-Triangle.csproj" />
-    <ProjectReference Include="..\02-leap-year\02-leap-year.csproj" />
+    <ProjectReference Include="..\02-LeapYear\02-LeapYear.csproj" />
   </ItemGroup>
 </Project>

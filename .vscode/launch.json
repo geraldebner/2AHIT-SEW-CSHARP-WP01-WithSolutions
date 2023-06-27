@@ -26,9 +26,9 @@
             "WARNING16": "button at the bottom of this file.",
             "WARNING17": "*********************************************************************************",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/test-library/bin/Debug/net7.0/test-library.dll",
+            "program": "${workspaceFolder}/TestLibrary/bin/Debug/net7.0/TestLibrary.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/test-library",
+            "cwd": "${workspaceFolder}/TestLibrary",
             "console": "integratedTerminal",
             "stopAtEntry": false
         },
