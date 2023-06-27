@@ -92,6 +92,15 @@ jobs:
         build-breaking: true
         all-categories: all
 
+    - name: Upload SARIF file
+      uses: github/codeql-action/upload-sarif@v2
+      with:
+        # Path to SARIF file relative to the root of the repository
+        sarif_file: results.sarif
+        # Optional category for the results
+        # Used to differentiate multiple results for one commit
+        category: my-analysis-tool
+
     # Execute all unit tests in the solution
     - name: Execute unit tests
       run: dotnet test
