@@ -83,7 +83,7 @@ jobs:
       uses: dotnet/code-analysis@v1.1
       id: code-analysis
       with:
-        solution: eb-test-csharp.sln  
+        solution: SEW-2AHIT-WP01.sln  
         build-breaking: true
         all-categories: all
 
