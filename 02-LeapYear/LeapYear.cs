@@ -6,6 +6,7 @@ namespace WP01
     {
         public static bool IsLeapYear(int year)
         {
+            return true;
             if (year % 4 == 0)
             {
                 if (year % 100 == 0)
