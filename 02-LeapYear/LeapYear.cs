@@ -2,7 +2,7 @@
 [assembly: CLSCompliant(true)]
 namespace WP01
 {
-    public class LeapYear
+    public static class LeapYear
     {
         public static bool IsLeapYear(int year)
         {

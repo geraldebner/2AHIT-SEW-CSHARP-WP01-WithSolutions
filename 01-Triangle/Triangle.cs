@@ -1,7 +1,7 @@
 [assembly: CLSCompliant(true)]
 namespace WP01
 {
-    public class Triangle
+    public static class Triangle
     {
         public static double CalcTriangleHyp(double a, double b)
         {
