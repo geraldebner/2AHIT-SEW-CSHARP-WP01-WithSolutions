@@ -22,6 +22,12 @@ namespace WP01
             return false;
         }
 
+        public static bool a_b_c(int year)
+        {
+            
+            return false;
+        }
+
         static void Main(string[] args)
         {
             IsLeapYear(2000);
