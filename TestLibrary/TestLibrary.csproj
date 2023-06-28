@@ -18,5 +18,9 @@
   <ItemGroup>
     <ProjectReference Include="..\01-Triangle\01-Triangle.csproj" />
     <ProjectReference Include="..\02-LeapYear\02-LeapYear.csproj" />
+    <ProjectReference Include="..\03-Prime\03-Prime.csproj" />
+    <ProjectReference Include="..\04-Faculty\04-Faculty.csproj" />
+    <ProjectReference Include="..\05-DigitSum\05-DigitSum.csproj" />    
+    <ProjectReference Include="..\06-Statistics\06-Statistics.csproj" />
   </ItemGroup>
 </Project>
