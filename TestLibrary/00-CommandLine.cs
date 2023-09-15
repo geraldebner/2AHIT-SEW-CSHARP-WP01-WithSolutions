@@ -28,8 +28,10 @@ public class CommandLineTest
         
         object[] parameters = new object[] {a,b,op };
         methodInfo.Invoke(null, parameters);
-            
-        StringAssert.Equals("result: " + result,output.ToString());
+        string consoleOutput = output.ToString();
+        if( String.IsNullOrEmpty(consoleOutput))
+            Assert.Fail("no console output");
+        StringAssert.Equals("result: " + result,consoleOutput);
     }
 
     [TestMethod]
@@ -49,8 +51,12 @@ public class CommandLineTest
         
         object[] parameters = new object[] { };
         methodInfo.Invoke(null, parameters);
-            
-        StringAssert.Equals(inputStr,output.ToString());
+        
+        string consoleOutput = output.ToString();
+        if( String.IsNullOrEmpty(consoleOutput))
+            Assert.Fail("no console output");
+
+        StringAssert.Equals(inputStr,consoleOutput);
     }
 
     [TestMethod]
