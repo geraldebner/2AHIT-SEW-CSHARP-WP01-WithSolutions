@@ -16,6 +16,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\00-CommandLine\00-CommandLine.csproj" />
     <ProjectReference Include="..\01-Triangle\01-Triangle.csproj" />
     <ProjectReference Include="..\02-LeapYear\02-LeapYear.csproj" />
     <ProjectReference Include="..\03-Prime\03-Prime.csproj" />
